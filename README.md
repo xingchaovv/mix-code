@@ -1,3 +1,3 @@
 # dotfiles
 
-个人Home目录个性化配置文件
+My dotfiles in home directory.
