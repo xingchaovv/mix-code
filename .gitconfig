@@ -1,6 +1,9 @@
-[color]
-    ui = true
 [user]
-    name = Daniel Zhang
-    email = danielzhme@gmail.com
+name = Singchao Zhang
+email = xxx@xxx.com
 
+[core]
+autocrlf = false
+
+[color]
+ui = true
