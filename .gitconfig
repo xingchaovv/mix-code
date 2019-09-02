@@ -1,9 +1,18 @@
 [user]
-name = Singchao Zhang
-email = xxx@xxx.com
+name = NAME
+email = EMAIL
 
 [core]
 autocrlf = false
 
 [color]
 ui = true
+
+[alias]
+co = checkout
+ci = commit
+st = status
+ll = log -1 HEAD
+br = !"git fetch && git branch -vv"
+push = !"git push && git log -1 HEAD"
+fm = !"git fetch && git merge && git log -1 HEAD"
