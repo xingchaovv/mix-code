@@ -1,7 +1,9 @@
 *~
 .DS_Store
 
-# Zend Studio IDE
-/.buildpath
-/.project
-/.settings
+# IDE
+.buildpath
+.project
+.settings
+.idea
+.vscode
