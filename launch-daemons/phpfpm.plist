@@ -1,0 +1,26 @@
+<!-- phpfpm 守护配置 -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- 是否启用（启动时自动加载） -->
+	<key>Disabled</key>
+	    <false/>
+    <!-- 加载时运行（启动时运行）-->
+	<key>RunAtLoad</key>
+	    <true/>
+	<key>ExitTimeOut</key>
+	    <integer>20</integer>
+	<key>KeepAlive</key>
+	    <false/>
+	<key>Label</key>
+	    <string>phpfpm</string>
+    <key>WorkingDirectory</key>
+        <string>/usr/local/opt/php</string>
+	<key>ProgramArguments</key>
+<array>
+        <string>/usr/local/opt/php/sbin/php-fpm</string>
+        <string>--nodaemonize</string>
+    </array>
+</dict>
+</plist>
