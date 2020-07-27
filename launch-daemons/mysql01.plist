@@ -5,7 +5,7 @@
     <key>Label</key>             <string>mysql01</string>
     <key>Disabled</key>          <false/>
     <key>RunAtLoad</key>         <true/>
-    <key>WorkingDirectory</key>  <string>/usr/local/opt/mysql01/bin</string>
+    <key>WorkingDirectory</key>  <string>/usr/local/opt/mysql01</string>
     <key>ProgramArguments</key>
         <array>
 	    <string>/usr/local/opt/mysql01/bin/mysqld</string>
